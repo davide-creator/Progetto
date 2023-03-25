@@ -119,8 +119,8 @@ for job in jobs:
             main_window = driver.current_window_handle
             username = WebDriverWait(driver, tim).until(EC.visibility_of_element_located((By.XPATH, "//input[@name='session_key']")))
             password = WebDriverWait(driver, tim).until(EC.visibility_of_element_located((By.XPATH, "//input[@name='session_password']")))
-            username.send_keys('davide.balestra3@studio.unibo.it')
-            password.send_keys('Elefante12')
+            username.send_keys('')
+            password.send_keys('')
             time.sleep(0.5)
             submit = WebDriverWait(driver, tim).until(EC.visibility_of_element_located((By.XPATH, "//button[@type='submit']"))).click()
 
