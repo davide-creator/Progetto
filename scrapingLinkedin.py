@@ -118,8 +118,8 @@ for n in range(numero_link):
             EC.visibility_of_element_located((By.XPATH, "//input[@name='session_key']")))
         password = WebDriverWait(driver, 30).until(
             EC.visibility_of_element_located((By.XPATH, "//input[@name='session_password']")))
-        username.send_keys('davide.balestra3@studio.unibo.it')
-        password.send_keys('Elefante12')
+        username.send_keys('')
+        password.send_keys('')
         submit = WebDriverWait(driver, 30).until(
             EC.visibility_of_element_located((By.XPATH, "//button[@type='submit']"))).click()
         time.sleep(2.5)
