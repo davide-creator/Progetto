@@ -19,8 +19,8 @@ testo = 'testoEmail.txt'
 file_con_email = 'inviareEmail.xlsx'
 SMTP_SERVER = "smtp.office365.com"
 SMTP_PORT = 587
-sender_email ='davide.balestra@outlook.com'
-password = 'Elefante12'
+sender_email =''
+password = ''
 email_inviate = 'email_inviate.xlsx'
 email_inviate_errori = 'Email_inviate_con_errori.xlsx'
 
